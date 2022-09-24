@@ -27,8 +27,8 @@
         >
         <nav>
           <ul class="site-nav list">
-            <li class="item">
-              <a href="index.html" class="link current">Студія</a>
+            <li class="item current">
+              <a href="index.html" class="link">Студія</a>
             </li>
             <li class="item">
               <a href="portfolio.html" class="link">Портфоліо</a>
@@ -60,7 +60,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-          <button>Замовити послугу</button>
+          <button data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <!-- why we section -->
@@ -110,6 +110,7 @@
                 width="370"
                 height="274"
               />
+              <div class="title">десктопні додатки</div>
             </li>
             <li class="item">
               <img
@@ -118,6 +119,7 @@
                 width="370"
                 height="274"
               />
+              <div class="title">мобільні  додатки</div>
             </li>
             <li class="item">
               <img
@@ -126,6 +128,7 @@
                 width="370"
                 height="274"
               />
+              <div class="title">дизайнерські рішення</div>
             </li>
           </ul>
         </div>
@@ -422,5 +425,18 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <a href="" data-modal-close>
+        <div class="close">
+          
+            <svg class="icon">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </div>
+          </a>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
