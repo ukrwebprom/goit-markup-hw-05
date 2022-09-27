@@ -174,7 +174,8 @@ footer .logo {
   text-decoration: none;
   font-style: normal;
   display: inline-block;
-  transition: all 250ms var(--time-function);
+  transition: color 250ms var(--time-function),
+              fill 250ms var(--time-function);
 }
 
 .email{
@@ -361,11 +362,11 @@ button:focus {
   height: 44px;
   width: 44px;
   border-radius: 50%;
-  //padding:12px;
   color:#AFB1B8;
   justify-content:center;
   align-items:center;
-  transition: all 250ms var(--time-function);
+  transition: background-color 250ms var(--time-function),
+              color 250ms var(--time-function);
 }
 .social a:hover,
 .social a:focus {
@@ -402,7 +403,8 @@ button:focus {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   color:#AFB1B8;
-  transition: all 250ms var(--time-function);
+  transition: border 250ms var(--time-function),
+              color 250ms var(--time-function);
 }
 .clients .icon {
   width:106px;
@@ -426,7 +428,9 @@ button:focus {
   text-decoration: none;
   font-style: normal;
   border: none;
-  transition: all 250ms var(--time-function);
+  transition: color 250ms var(--time-function),
+              background-color 250ms var(--time-function),
+              box-shadow 250ms var(--time-function);
 }
 
 .portfolio .link:hover,
