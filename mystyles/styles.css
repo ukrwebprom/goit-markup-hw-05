@@ -141,7 +141,11 @@ footer .logo {
   padding: 32px 0;
   transition: color 250ms var(--time-function);
 }
-
+.email,
+.phone {
+  fill: var(--primary-text-color);
+  transition: fill 250ms var(--time-function);
+}
 .site-nav .link:hover,
 .site-nav .link:focus,
 .header-address .link:hover,
@@ -174,8 +178,7 @@ footer .logo {
   text-decoration: none;
   font-style: normal;
   display: inline-block;
-  transition: color 250ms var(--time-function),
-              fill 250ms var(--time-function);
+  transition: color 250ms var(--time-function);
 }
 
 .email{
